@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(140, 134, 134);
+}
+
+.head1{
+    background-color: rgb(156, 46, 46);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.head2{
+    background-color: rgb(44, 114, 44);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.head3{
+    background-color: rgb(33, 33, 85);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.head4{
+    background-color: rgb(121, 121, 23);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}               
+
+#ul1{
+    list-style-type: none;
+    text-size-adjust: 30px; 
+    margin: 20px;
+    padding: 50px;
+    border: 1px solid black;
+    overflow: hidden;
+    color: white;
+    background-color: rgb(15, 151, 42);
+}
+#ul2{
+    list-style-type: none;
+    text-size-adjust: 30px; 
+    margin: 20px;
+    padding: 50px;
+    border: 1px solid rgb(6, 2, 14);
+    overflow: hidden;
+    color: rgb(95, 15, 15);
+    background-color: rgb(51, 26, 178);
+}
+li{
+    text-align: center;
+     font-size: 60px; 
+     margin: 20px;
+     margin: 20px;
+     padding: 20px;
+     border: 1px solid black;
+     overflow: hidden;
+     color: white;
+     background-color: rgb(240, 15, 15);
+}
+
+.appx{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+    color: white;
+    background-color: rgb(15, 151, 42);
+
+}
+.appx1{
+    text-align: center;
+     font-size: 60px; 
+     margin: 20px;
+     padding: 20px;
+     border: 1px solid black;
+     overflow: hidden;
+     color: rgb(14, 1, 1);
+     background-color: rgb(224, 13, 171);
+
+}   

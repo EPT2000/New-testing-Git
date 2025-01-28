@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"> </script>
+    <link rel="stylesheet" href="style.css">
+
+    </a>
+
+</head>
+<body>
+    <div id="app1" class="head1">
+        <h1>Hello World 1</h1>
+    </div>      
+    <div id="app2"class="head2">
+        <h1>Hello Prasoon 2</h1>
+    </div> 
+    <div id="app3" class="head3">
+        <h1>Hello India  3</h1>
+    </div> 
+    <div id="app4" class="head4">
+        <h1>Hello Uttar pradesh 4</h1>
+        <div id="app4_1">
+            <h1>Hello World KIUL 4 ke ander</h1>
+        </div>
+    </div> 
+
+    <ul id="ul1">
+        <li>stone</li>
+        <li>paper</li>
+        <li>scissors</li>
+    </ul>
+
+    <ul id="ul2">
+        <li>stone</li>
+        <li>paper</li>
+        <li>scissors</li>
+    </ul>
+
+
+    <div class="appx">
+        <div class="appx1">Monday</div>
+        <div class="appx1">Tuesday</div>
+        <div class="appx1">Wednesday</div>
+        <div class="appx1">Thursday</div>
+        <div class="appx1">Friday</div>
+        <div class="appx1">Saturday</div>
+        <div class="appx1">Sunday</div>
+        
+    </div>
+</body>
+
+
+<script>
+   
+   const parent = document.querySelector('.appx')
+
+// const appxinside =  appx.querySelectorAll('.appx')
+
+// console.log(parent);
+
+// console.log(parent.children);
+
+
+// for(i=0;i<3;i++){
+//     console.log(parent.children[i].innerHTML);
+//     parent.children[i].innerHTML= 'prasoon'
+//     console.log(parent.children[i].innerHTML);
+
+// }
+
+const firstchild = document.querySelector('.appx1')
+
+// console.log(firstchild);
+// console.log(parent.firstElementChild.innerHTML);
+// console.log(parent.lastElementChild.innerHTML);   
+console.log(firstchild.parentElement.innerHTML);
+
+
+
+
+</script>
+</html>
